@@ -2,6 +2,14 @@ body{
   background-color: #2a2a2f;
 }
 
+#project-area{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
 
 
 
