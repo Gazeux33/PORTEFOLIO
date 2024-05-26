@@ -1,17 +1,27 @@
+import React, { useEffect } from 'react';
 import './App.css';
 import NavBar from "./Composants/NavBar/NavBar";
-import Carte from "./Composants/Carte/Carte";
-import projects from './projects.json';
+import Home from "./Composants/Home/Home";
+import Presentation from "./Composants/Presentation/Presentation";
+import Skills from "./Composants/Skills/Skills";
+import Projects from "./Composants/Projects/Projects";
+import ContactMe from "./Composants/ContactMe/ContactMe";
+
 
 function App() {
+
+
     return (
         <div className="App">
-            <NavBar />
-            <div id="project-area">
-                {projects.map((project, index) => (
-                    <Carte key={index} project={project} />
-                ))}
-            </div>
+            <NavBar/>
+            <main>
+                <Home/>
+                <Presentation/>
+                <Skills/>
+                <Projects/>
+                <ContactMe/>
+
+            </main>
         </div>
     );
 }

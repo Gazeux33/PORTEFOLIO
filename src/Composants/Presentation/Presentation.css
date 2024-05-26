@@ -1,0 +1,39 @@
+#about-me-container{
+    color: var(--font-color);
+    padding: 20px 0;
+}
+
+#about-me-container h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+#carte-presentation {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 50px;
+}
+
+#img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#texte-container {
+    width: 400px;
+}
+
+#texte-container p{
+    color: var(--secondary-font-color);
+}

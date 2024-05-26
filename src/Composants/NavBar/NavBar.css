@@ -1,4 +1,33 @@
-.NavBar{
-    height: 100px;
-    background-color: #000000;
+#navbar {
+    padding: 20px;
+    height: var(--nav-bar-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--font-color);
+}
+
+#navbar h1 {
+    color: var(--font-color);
+}
+
+.right-side-nav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar-item-container{
+    margin-right: 20px;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin:  0 20px;
+}
+
+#darkmode-icon{
+    width: 40px;
+    color: var(--purple);
 }

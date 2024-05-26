@@ -1,9 +1,33 @@
 [
   {
+    "title": "Neural Style Transfer",
+    "image": "nst.png",
+    "description": "Implementation of Neural Style Transfert using PyTorch",
+    "skills": [],
+    "gitLabLink": "google.com",
+    "date": "02/05/24"
+  },
+  {
+    "title": "Snake AI",
+    "image": "snake.png",
+    "description": "Snake AI using Neural Network in PyTorch",
+    "skills": [],
+    "gitLabLink": "google.com",
+    "date": "02/05/24"
+  },
+  {
     "title": "Connect4 IA",
     "image": "connect4.png",
     "description": "Connect4 AI using Monte Carlo Tree Search",
-    "skills": "Java",
+    "skills": [],
+    "gitLabLink": "google.com",
+    "date": "02/05/24"
+  },
+  {
+    "title": "Variational Autoencoder",
+    "image": "VAE.png",
+    "description": "VAE in with PyTorch to create synthetic data",
+    "skills": [],
     "gitLabLink": "google.com",
     "date": "02/05/24"
   },
@@ -11,23 +35,15 @@
     "title": "Maze Generator and Solver",
     "image": "maze.png",
     "description": "A maze generator and solver using A* in python with pygame",
-    "skills": "Java",
     "gitLabLink": "google.com",
     "date": "02/05/24"
   },
-  {
-    "title": "MySuperHoroscope",
-    "image": "msh.png",
-    "description": "Online Website selling daily horoscope",
-    "skills": "Java",
-    "gitLabLink": "google.com",
-    "date": "02/05/24"
-  },
+
   {
     "title": "Particles Simulation",
     "image": "particle.png",
     "description": "A simple particle simulation with SFML in c++",
-    "skills": "Java",
+    "skills": [],
     "gitLabLink": "google.com",
     "date": "02/05/24"
   },
@@ -39,26 +55,19 @@
     "gitLabLink": "google.com",
     "date": "02/05/24"
   },
-  {
-    "title": "Snake AI",
-    "image": "snake.png",
-    "description": "Snake AI using Neural Network in PyTorch",
-    "skills": "Java",
-    "gitLabLink": "google.com",
-    "date": "02/05/24"
-  },
-  {
-    "title": "Variational Autoencoder",
-    "image": "VAE.png",
-    "description": "VAE in with PyTorch to create synthetic data",
-    "skills": "Java",
-    "gitLabLink": "google.com",
-    "date": "02/05/24"
-  },
+
   {
     "title": "Towa AI",
     "image": "TOWA.png",
     "description": "An artificial intelligence for a chessboard game named Towa",
+    "skills": "Java",
+    "gitLabLink": "google.com",
+    "date": "02/05/24"
+  },
+  {
+    "title": "MySuperHoroscope",
+    "image": "msh.png",
+    "description": "Online Website selling daily horoscope",
     "skills": "Java",
     "gitLabLink": "google.com",
     "date": "02/05/24"

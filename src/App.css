@@ -1,17 +1,65 @@
-body{
-  background-color: #2a2a2f;
+:root {
+    --nav-bar-height:90px;
+    --body-font: "Poppins", sans-serif;
+    --font-color:rgb(240,240,240);
+    --static-font-color:rgb(240,240,240);
+    --secondary-font-color:rgb(150,150,150);
+    --background: rgb(24,22,38);
+    --purple:rgb(106,88,216);
+    --purple-hover:rgb(86,68,196);
 }
 
-#project-area{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+/*****************
+RESET
+*****************/
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+/*****************
+REUSABLE CLASS
+*****************/
+
+.hover:hover{
+    color: var(--purple-hover);
+}
+
+/*****************
+BODY
+*****************/
+
+body {
+    background-color: var(--background);
+    font-family: var(--body-font);
+    color: var(--font-color);
 }
 
 
+/*****************
+SCROLL BAR
+*****************/
 
+::-webkit-scrollbar{
+    width: 8px;
+}
 
+::-webkit-scrollbar-thumb{
+    background-color: var(--purple);
+    border-radius: 10px;
+    opacity: 0.6;
+}
 
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--purple-hover);
+    opacity: 0.8;
+}
 
 
 
