@@ -23,7 +23,7 @@ const ThreeDModel = () => {
 
         // Camera
         const camera = new THREE.PerspectiveCamera(20, WIDTH / HEIGHT, 0.1, 10000);
-        camera.position.set(0, 0, 5);
+        camera.position.set(2, 0, 5.5);
 
         // Lights
         const addSpotLight = (x, y, z) => {
@@ -37,17 +37,24 @@ const ThreeDModel = () => {
         addSpotLight(0, 5, 0);
         addSpotLight(0, -5, 0);
 
+        // Add AxesHelper to visualize the axes
+        const axesHelper = new THREE.AxesHelper(5);
+        scene.add(axesHelper);
+
         // Loader
         const loader = new GLTFLoader();
         loader.load('/models/macintosh/scene.gltf', (model) => {
+            // Create a group to center rotation
+            const group = new THREE.Group();
             const mesh = model.scene;
-            mesh.position.set(0.5, -0.5, 0);
-            mesh.scale.set(0.03,0.03,0.03)
-            mesh.rotateX(Math.PI / 12); // Rotate by 45 degrees
-            scene.add(mesh);
+            mesh.position.set(0.6, -0.3,1.3);
+            mesh.scale.set(0.03, 0.03, 0.03);
+            group.add(mesh); // Add model to group
+            scene.add(group); // Add group to scene
         });
 
-        // Controls
+
+        // Control
         const controls = new OrbitControls(camera, renderer.domElement);
         controls.enableZoom = false;
         controls.enablePan = false;
