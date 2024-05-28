@@ -4,7 +4,7 @@
     "image": "nst.png",
     "description": "Implementation of Neural Style Transfert using PyTorch",
     "skills": [],
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/NeuralStyleTransfert",
     "date": "02/05/24"
   },
   {
@@ -12,7 +12,7 @@
     "image": "snake.png",
     "description": "Snake AI using Neural Network in PyTorch",
     "skills": [],
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Snake-Ai",
     "date": "02/05/24"
   },
   {
@@ -20,7 +20,7 @@
     "image": "connect4.png",
     "description": "Connect4 AI using Monte Carlo Tree Search",
     "skills": [],
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Connect4_AI",
     "date": "02/05/24"
   },
   {
@@ -28,14 +28,14 @@
     "image": "VAE.png",
     "description": "VAE in with PyTorch to create synthetic data",
     "skills": [],
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Variational-Autoencoders",
     "date": "02/05/24"
   },
   {
     "title": "Maze Generator and Solver",
     "image": "maze.png",
     "description": "A maze generator and solver using A* in python with pygame",
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Generating-and-Solving-Mazes",
     "date": "02/05/24"
   },
 
@@ -44,7 +44,7 @@
     "image": "particle.png",
     "description": "A simple particle simulation with SFML in c++",
     "skills": [],
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Particles-Simulation",
     "date": "02/05/24"
   },
   {
@@ -52,7 +52,7 @@
     "image": "pg.png",
     "description": "Procedural Map generation using Perlin Noise with P5.js",
     "skills": "Java",
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/Procedural-Generation",
     "date": "02/05/24"
   },
 
@@ -61,7 +61,7 @@
     "image": "TOWA.png",
     "description": "An artificial intelligence for a chessboard game named Towa",
     "skills": "Java",
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/IA-Towa",
     "date": "02/05/24"
   },
   {
@@ -69,7 +69,7 @@
     "image": "msh.png",
     "description": "Online Website selling daily horoscope",
     "skills": "Java",
-    "gitLabLink": "google.com",
+    "link": "https://github.com/Gazeux33/MySuperHoroscope",
     "date": "02/05/24"
   }
 ]

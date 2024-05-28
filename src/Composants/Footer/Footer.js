@@ -25,12 +25,16 @@ function Footer() {
             </div>
 
             <div style={{ display: "flex"}}>
-                <div className="icon">
-                    <img src={github} alt=""/>
-                </div>
-                <div className="icon">
-                    <img src={linkedin} alt=""/>
-                </div>
+                <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
+                    <div className="icon" style={{cursor: 'pointer'}}>
+                        <img src={github} alt="GitHub"/>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <div className="icon" style={{cursor: 'pointer'}}>
+                        <img src={linkedin} alt="GitHub"/>
+                    </div>
+                </a>
             </div>
 
         </footer>
