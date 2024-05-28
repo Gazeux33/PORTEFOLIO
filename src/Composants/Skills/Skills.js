@@ -19,6 +19,8 @@ import react from "../../assets/pictures/skills/react.png"
 import tf from "../../assets/pictures/skills/tf.png"
 import ubuntu from "../../assets/pictures/skills/ubuntu.png"
 import vs from "../../assets/pictures/skills/vs.png"
+import numpy from "../../assets/pictures/skills/numpy.png"
+import sql from "../../assets/pictures/skills/sql.png"
 
 
 
@@ -84,6 +86,10 @@ const Skills = () => {
                             React
                         </div>
                         <div className="skill-icon">
+                            <img src={numpy} className="icon" alt="numpy"/>
+                            numpy
+                        </div>
+                        <div className="skill-icon">
                             <img src={mathplt} className="icon" alt="mathplt"/>
                             Matplotlib
                         </div>
@@ -98,6 +104,10 @@ const Skills = () => {
                         <div className="skill-icon">
                             <img src={django} className="icon" alt="django"/>
                             Django
+                        </div>
+                        <div className="skill-icon">
+                            <img src={sql} className="icon" alt="sql"/>
+                            Sql
                         </div>
                     </div>
                 </div>
