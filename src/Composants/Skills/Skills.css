@@ -79,6 +79,9 @@
         margin: 5px;
         box-shadow: none;
     }
+    .skill-icon:hover {
+        box-shadow: none;
+    }
 
 
 }
