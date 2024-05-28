@@ -38,8 +38,8 @@ const ThreeDModel = () => {
         addSpotLight(0, -5, 0);
 
         // Add AxesHelper to visualize the axes
-        const axesHelper = new THREE.AxesHelper(5);
-        scene.add(axesHelper);
+        //const axesHelper = new THREE.AxesHelper(5);
+        //scene.add(axesHelper);
 
         // Loader
         const loader = new GLTFLoader();
