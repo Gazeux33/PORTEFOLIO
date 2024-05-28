@@ -72,7 +72,7 @@ const ThreeDModel = () => {
         };
     }, []);
 
-    return <div ref={mountRef} />;
+    return <div ref={mountRef} id="threeDModelContainer" />;
 };
 
 export default ThreeDModel;

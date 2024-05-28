@@ -9,6 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 
 }
@@ -49,4 +50,35 @@
 
 .icon {
     width: 4vw;
+}
+
+@media (max-width: 700px) {
+    .skills-section{
+        margin: 0;
+    }
+
+    .skill-icon {
+        padding: 0;
+    }
+
+    .skills-icons-container{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    .skills-section h2{
+        font-size: 1rem;
+    }
+
+    .skills-icons-container{
+        padding: 3px;
+    }
+
+    .skill-icon {
+        margin: 5px;
+        box-shadow: none;
+    }
+
+
 }

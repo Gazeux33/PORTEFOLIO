@@ -31,3 +31,10 @@
     width: 40px;
     color: var(--purple);
 }
+
+@media (max-width: 900px) {
+    .navbar-item-container{
+        display: none;
+    }
+}
+

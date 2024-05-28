@@ -37,3 +37,16 @@
 .home-button:hover{
     background-color: var(--purple-hover);
 }
+
+@media (max-width: 950px) {
+    #threeDModelContainer {
+        display: none;
+    }
+
+    #home-presentation-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+}
