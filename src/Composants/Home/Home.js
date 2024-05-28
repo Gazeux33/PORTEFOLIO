@@ -10,6 +10,13 @@ const Home = () => {
 
     useTypingEffect(wordElement, words);
 
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = 'chien.pdf';
+        link.download = 'theocastillo.pdf';
+        link.click();
+    };
+
     return (
         <div id="home-container">
             <div id="home-presentation-container">
@@ -20,8 +27,8 @@ const Home = () => {
                     <span ref={wordElement} id="word"></span>
                     <span className="cursor">|</span>
                 </div>
-                <div className="home-button">
-                    <a href="#">Download CV</a>
+                <div className="home-button" onClick={handleDownload}>
+                    <a href="#" onClick={(e) => e.preventDefault()}>Download CV</a>
                     <img src={fileText} alt=""/>
                 </div>
             </div>

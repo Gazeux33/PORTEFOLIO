@@ -1,3 +1,7 @@
+#contact-me-container {
+  margin-bottom: 100px;
+}
+
 #contact-me-container h1 {
     text-align: center;
     font-size: 3rem;
@@ -14,14 +18,14 @@
 
 
 .form-container {
-    width: 400px;
-    background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    width: 75%;
+    background: linear-gradient(var(--background),var(--background)) padding-box,
+                linear-gradient(145deg, transparent 35%,var(--purple),var(--purple-hover)) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
     font-family: inherit;
-    color: white;
+    color: var(--font-color);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -73,7 +77,7 @@
     width: 100%;
     padding: 12px 16px;
     border-radius: 8px;
-    color: #fff;
+    color: var(--font-color);
     font-family: inherit;
     background-color: transparent;
     border: 1px solid #414141;
@@ -84,7 +88,7 @@
     padding: 12px 16px;
     border-radius: 8px;
     resize: none;
-    color: #fff;
+    color: var(--font-color);
     height: 96px;
     border: 1px solid #414141;
     background-color: transparent;
@@ -97,12 +101,12 @@
   
   .form-container .form-group input:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: var(--purple);
   }
   
   .form-container .form-group textarea:focus {
     outline: none;
-    border-color: #e81cff;
+    border-color: var(--purple);
   }
   
   .form-container .form-submit-btn {
@@ -111,10 +115,10 @@
     justify-content: center;
     align-self: flex-start;
     font-family: inherit;
-    color: #717171;
+    color: var(--static-font-color);
     font-weight: 600;
     width: 40%;
-    background: #313131;
+    background: var(--purple);
     border: 1px solid #414141;
     padding: 12px 16px;
     font-size: inherit;
@@ -125,8 +129,13 @@
   }
   
   .form-container .form-submit-btn:hover {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: var(--purple-hover);
+    border-color: var(--purple-hover);
+  }
+
+  .global-contact {
+    display: flex;
+    justify-content: center;
   }
   
   

@@ -1,6 +1,8 @@
 import React from "react";
 import "./ContactMe.css";
 
+import Footer from "../Footer/Footer";
+
 function ContactMe() {
   return (
     <div id="contact-me-container">
@@ -9,11 +11,11 @@ function ContactMe() {
         <div className="form-container">
           <form className="form">
             <div className="form-group">
-              <label for="email">Company Email</label>
+              <label for="email">Your email</label>
               <input required="" name="email" id="email" type="text" />
             </div>
             <div className="form-group">
-              <label for="textarea">How Can We Help You?</label>
+              <label for="textarea">Your Message</label>
               <textarea
                 required=""
                 cols="50"
@@ -30,6 +32,10 @@ function ContactMe() {
           </form>
         </div>
       </div>
+      <div className="global-contact">
+        <Footer/>
+      </div>
+
     </div>
   );
 }

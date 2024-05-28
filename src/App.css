@@ -9,6 +9,10 @@
     --purple-hover:rgb(86,68,196);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*****************
 RESET
 *****************/

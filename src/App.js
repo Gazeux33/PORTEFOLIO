@@ -6,6 +6,7 @@ import Presentation from "./Composants/Presentation/Presentation";
 import Skills from "./Composants/Skills/Skills";
 import Projects from "./Composants/Projects/Projects";
 import ContactMe from "./Composants/ContactMe/ContactMe";
+import Footer from "./Composants/Footer/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Skills/>
                 <Projects/>
                 <ContactMe/>
+
 
             </main>
         </div>

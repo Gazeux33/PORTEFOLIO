@@ -1,0 +1,30 @@
+
+footer {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    display: flex;
+}
+
+.contact-div {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon img {
+    background-color: var(--purple);
+    width: 50px;
+    padding: 5px;
+    border-radius: 30%;
+}

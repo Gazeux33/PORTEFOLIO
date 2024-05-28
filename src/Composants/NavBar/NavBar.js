@@ -6,15 +6,22 @@ import "./Toggle.css";
 function NavBar() {
     const [themeState, toggleTheme] = useTheme();
 
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <header id="navbar">
             <h1>Theo Castillo</h1>
             <div className="right-side-nav">
                 <div className="navbar-item-container">
-                    <a href="#" className="nav-item hover">Home</a>
-                    <a href="#" className="nav-item hover">About Me</a>
-                    <a href="#" className="nav-item hover">My Projects</a>
-                    <a href="#" className="nav-item hover">Contact Me</a>
+                    <a href="#home-container" className="nav-item hover" onClick={() => scrollToSection('home-container')}>Home</a>
+                    <a href="#about-me-container" className="nav-item hover" onClick={() => scrollToSection('about-me-container')}>About Me</a>
+                    <a href="#projects-global-container" className="nav-item hover" onClick={() => scrollToSection('projects-global-container')}>My Projects</a>
+                    <a href="#contact-me-container" className="nav-item hover" onClick={() => scrollToSection('contact-me-container')}>Contact Me</a>
                 </div>
                 <label className="ui-switch">
                     <input

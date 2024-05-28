@@ -17,6 +17,13 @@ function Presentation() {
         }
     }, []);
 
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div id="about-me-container">
             <h1>About Me</h1>
@@ -33,7 +40,8 @@ function Presentation() {
                         intelligence in the global sense.
                     </p>
                     <div className="home-button">
-                        <a href="#">Contact Me</a>
+                        <a href="#contact-me-container"
+                           onClick={() => scrollToSection('contact-me-container')}>Contact Me</a>
                         <img src={sendMessage} alt=""/>
                     </div>
                 </div>
