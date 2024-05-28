@@ -45,12 +45,11 @@ const ThreeDModel = () => {
         const loader = new GLTFLoader();
         loader.load('/models/macintosh/scene.gltf', (model) => {
             // Create a group to center rotation
-            const group = new THREE.Group();
             const mesh = model.scene;
             mesh.position.set(0.6, -0.3,1.3);
             mesh.scale.set(0.03, 0.03, 0.03);
-            group.add(mesh); // Add model to group
-            scene.add(group); // Add group to scene
+            //mesh.rotateX(Math.PI/11);
+            scene.add(mesh)
         });
 
 

@@ -3,6 +3,7 @@ import "./Presentation.css";
 import sendMessage from "../../assets/icons/send-message.svg";
 import theo from "../../assets/pictures/theo.jpeg";
 import simpleParallax from 'simple-parallax-js';
+import fileText from "../../assets/icons/file-text.svg";
 
 function Presentation() {
     const imageRef = useRef(null);
@@ -39,10 +40,9 @@ function Presentation() {
                         made it my career. Today I'm particularly interested in artificial
                         intelligence in the global sense.
                     </p>
-                    <div className="home-button">
-                        <a href="#contact-me-container"
-                           onClick={() => scrollToSection('contact-me-container')}>Contact Me</a>
-                        <img src={sendMessage} alt=""/>
+                    <div className="home-button" onClick={() => scrollToSection('contact-me-container')}>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Contact Me</a>
+                        <img src={sendMessage} alt="" onClick={(e) => { e.stopPropagation(); scrollToSection('contact-me-container'); }}/>
                     </div>
                 </div>
             </div>
