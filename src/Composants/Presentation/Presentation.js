@@ -3,7 +3,6 @@ import "./Presentation.css";
 import sendMessage from "../../assets/icons/send-message.svg";
 import theo from "../../assets/pictures/theo.jpeg";
 import simpleParallax from 'simple-parallax-js';
-import fileText from "../../assets/icons/file-text.svg";
 
 function Presentation() {
     const imageRef = useRef(null);
