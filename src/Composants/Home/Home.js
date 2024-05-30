@@ -28,11 +28,13 @@ const Home = () => {
                     <span className="cursor">|</span>
                 </div>
                 <div className="home-button" onClick={handleDownload}>
-                    <a href="#" onClick={(e) => e.preventDefault()}>Download CV</a>
+                    <div>
+                        <button className="link-button">Download CV</button>
+                    </div>
                     <img src={fileText} alt=""/>
                 </div>
             </div>
-            <ThreeDModel/>
+            <ThreeDModel />
         </div>
     );
 };

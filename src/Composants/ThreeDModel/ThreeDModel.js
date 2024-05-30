@@ -7,6 +7,9 @@ const ThreeDModel = () => {
     const mountRef = useRef(null);
 
     useEffect(() => {
+        // Copie de la référence dans une variable locale
+        const currentMount = mountRef.current;
+
         // Dimensions
         const WIDTH = 500;
         const HEIGHT = 500;
@@ -16,7 +19,7 @@ const ThreeDModel = () => {
         renderer.setSize(WIDTH, HEIGHT);
 
         // Mounting to our React ref
-        mountRef.current.appendChild(renderer.domElement);
+        currentMount.appendChild(renderer.domElement);
 
         // Scene
         const scene = new THREE.Scene();
@@ -68,7 +71,7 @@ const ThreeDModel = () => {
 
         // Cleanup
         return () => {
-            mountRef.current.removeChild(renderer.domElement);
+            currentMount.removeChild(renderer.domElement);
         };
     }, []);
 

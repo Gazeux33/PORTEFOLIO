@@ -1,34 +1,34 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 
 const useTypingEffect = (wordElement, words, typingDelay = 100, erasingDelay = 100, newTextDelay = 300) => {
-    let wordIndex = 0;
-    let charIndex = 0;
+    const wordIndex = useRef(0);
+    const charIndex = useRef(0);
 
-    const type = () => {
-        if (charIndex < words[wordIndex].length) {
-            wordElement.current.textContent += words[wordIndex].charAt(charIndex);
-            charIndex++;
+    const type = useCallback(() => {
+        if (charIndex.current < words[wordIndex.current].length) {
+            wordElement.current.textContent += words[wordIndex.current].charAt(charIndex.current);
+            charIndex.current++;
             setTimeout(type, typingDelay);
         } else {
             setTimeout(erase, newTextDelay);
         }
-    };
+    }, [typingDelay, newTextDelay, words, wordElement]);
 
-    const erase = () => {
-        if (charIndex > 0) {
-            wordElement.current.textContent = words[wordIndex].substring(0, charIndex - 1);
-            charIndex--;
+    const erase = useCallback(() => {
+        if (charIndex.current > 0) {
+            wordElement.current.textContent = words[wordIndex.current].substring(0, charIndex.current - 1);
+            charIndex.current--;
             setTimeout(erase, erasingDelay);
         } else {
-            wordIndex = (wordIndex + 1) % words.length;
+            wordIndex.current = (wordIndex.current + 1) % words.length;
             setTimeout(type, typingDelay + 1100);
         }
-    };
+    }, [erasingDelay, typingDelay, words, wordElement, type]);
 
     useEffect(() => {
         const timer = setTimeout(type, newTextDelay + 250);
         return () => clearTimeout(timer);
-    }, [type]);
+    }, [type, newTextDelay]);
 };
 
 export default useTypingEffect;

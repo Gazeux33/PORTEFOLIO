@@ -40,8 +40,11 @@ function Presentation() {
                         intelligence in the global sense.
                     </p>
                     <div className="home-button" onClick={() => scrollToSection('contact-me-container')}>
-                        <a href="#" onClick={(e) => e.preventDefault()}>Contact Me</a>
-                        <img src={sendMessage} alt="" onClick={(e) => { e.stopPropagation(); scrollToSection('contact-me-container'); }}/>
+                        <button className="link-button">Contact Me</button>
+                        <img src={sendMessage} alt="" onClick={(e) => {
+                            e.stopPropagation();
+                            scrollToSection('contact-me-container');
+                        }}/>
                     </div>
                 </div>
             </div>
