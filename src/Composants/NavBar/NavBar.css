@@ -36,5 +36,11 @@
     .navbar-item-container{
         display: none;
     }
+
+    .right-side-nav{
+        margin-right: 0;
+    }
+
+
 }
 
