@@ -50,8 +50,15 @@
 }
 
 .icon {
-    width: 6vw;
+    width: 4vw;
 }
+
+@media (max-width: 780px) {
+    .icon {
+        width: 6vw;
+    }
+}
+
 
 
 
