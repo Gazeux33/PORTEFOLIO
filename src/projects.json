@@ -8,6 +8,21 @@
     "date": "02/05/24"
   },
   {
+    "title": "Variational Autoencoder",
+    "image": "VAE.png",
+    "description": "VAE in with PyTorch to create synthetic data",
+    "skills": [],
+    "link": "https://github.com/Gazeux33/Variational-Autoencoders",
+    "date": "02/05/24"
+  },
+  {
+    "title": "Maze Generator and Solver",
+    "image": "maze.png",
+    "description": "A maze generator and solver using A* in python with pygame",
+    "link": "https://github.com/Gazeux33/Generating-and-Solving-Mazes",
+    "date": "02/05/24"
+  },
+  {
     "title": "Snake AI",
     "image": "snake.png",
     "description": "Snake AI using Neural Network in PyTorch",
@@ -23,22 +38,6 @@
     "link": "https://github.com/Gazeux33/Connect4_AI",
     "date": "02/05/24"
   },
-  {
-    "title": "Variational Autoencoder",
-    "image": "VAE.png",
-    "description": "VAE in with PyTorch to create synthetic data",
-    "skills": [],
-    "link": "https://github.com/Gazeux33/Variational-Autoencoders",
-    "date": "02/05/24"
-  },
-  {
-    "title": "Maze Generator and Solver",
-    "image": "maze.png",
-    "description": "A maze generator and solver using A* in python with pygame",
-    "link": "https://github.com/Gazeux33/Generating-and-Solving-Mazes",
-    "date": "02/05/24"
-  },
-
   {
     "title": "Particles Simulation",
     "image": "particle.png",
