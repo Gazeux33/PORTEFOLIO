@@ -8,9 +8,17 @@
     "date": "02/05/24"
   },
   {
+    "title": "Generative Adversial Network (WGAN-GP)",
+    "image": "gan.png",
+    "description": "Implementation of a WGAN-GP on the CelebA dataset with PyTorch for face generation",
+    "skills": [],
+    "link": "https://github.com/Gazeux33/Generative-Adversial-Network",
+    "date": "02/05/24"
+  },
+  {
     "title": "Variational Autoencoder",
     "image": "VAE.png",
-    "description": "VAE in with PyTorch to create synthetic data",
+    "description": "VAE with PyTorch to create synthetic data",
     "skills": [],
     "link": "https://github.com/Gazeux33/Variational-Autoencoders",
     "date": "02/05/24"
