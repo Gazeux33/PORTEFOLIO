@@ -3,6 +3,8 @@ import "./Home.css";
 import fileText from "../../assets/icons/file-text.svg";
 import useTypingEffect from './useTypingEffect';
 import ThreeDModel from "../ThreeDModel/ThreeDModel";
+import github from "../../assets/icons/github.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 const Home = () => {
     const words = ["Artificial Intelligence", "Deep Learning", "Machine Learning"];
@@ -19,6 +21,18 @@ const Home = () => {
 
     return (
         <div id="home-container">
+            <div className="logo-container">
+                <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
+                    <div className="icon" style={{cursor: 'pointer'}}>
+                        <img  className="hover-bg" src={github} alt="GitHub"/>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" >
+                    <div className="icon" style={{cursor: 'pointer'}}>
+                        <img  className="hover-bg" src={linkedin} alt="GitHub"/>
+                    </div>
+                </a>
+            </div>
             <div id="home-presentation-container">
                 <h1>Hello I'm Theo</h1>
                 <h2>Computer Science Student</h2>
@@ -34,7 +48,10 @@ const Home = () => {
                     <img src={fileText} alt=""/>
                 </div>
             </div>
-            <ThreeDModel />
+            <div className="threeD-container ">
+                <ThreeDModel />
+            </div>
+
         </div>
     );
 };

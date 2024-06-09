@@ -58,6 +58,19 @@ button {
     background-color: var(--purple-hover);
 }
 
+.threeD-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
 @media (max-width: 950px) {
     #threeDModelContainer {
         display: none;
@@ -69,4 +82,18 @@ button {
         align-items: center;
         text-align: center;
 }
+}
+
+@media (max-width: 550px) {
+    #home-container {
+         flex-direction: column-reverse;
+     }
+
+    .logo-container {
+        flex-direction: row;
+        margin-top: 0;
+        margin-right: 0;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
 }

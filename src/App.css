@@ -35,6 +35,10 @@ REUSABLE CLASS
     color: var(--purple-hover);
 }
 
+.hover-bg:hover{
+    background-color: var(--purple-hover);
+}
+
 /*****************
 BODY
 *****************/
