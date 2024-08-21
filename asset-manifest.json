@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e87a74f7.css",
-    "main.js": "/static/js/main.2435de62.js",
+    "main.css": "/static/css/main.2cd5a703.css",
+    "main.js": "/static/js/main.7f9c94f2.js",
     "static/js/453.fc2b1924.chunk.js": "/static/js/453.fc2b1924.chunk.js",
     "static/media/theo.jpeg": "/static/media/theo.6cb576347e3c971cdb82.jpeg",
     "static/media/gan.png": "/static/media/gan.d2eefd5ba91625c22770.png",
@@ -33,13 +33,14 @@
     "static/media/github.svg": "/static/media/github.b5b14ac3d6a832bc8a12e0b64506e942.svg",
     "static/media/file-text.svg": "/static/media/file-text.d1ed08de785ee0ebd81165b53070636e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.dfdf3fd07300aa793af9cba5e61c6f6f.svg",
+    "static/media/mail.svg": "/static/media/mail.3add4a10ff8544f7dae2f789c98754bb.svg",
     "static/media/send-message.svg": "/static/media/send-message.18fa1c5be1d9b867c6b85ee3f0ae1f35.svg",
-    "main.e87a74f7.css.map": "/static/css/main.e87a74f7.css.map",
-    "main.2435de62.js.map": "/static/js/main.2435de62.js.map",
+    "main.2cd5a703.css.map": "/static/css/main.2cd5a703.css.map",
+    "main.7f9c94f2.js.map": "/static/js/main.7f9c94f2.js.map",
     "453.fc2b1924.chunk.js.map": "/static/js/453.fc2b1924.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e87a74f7.css",
-    "static/js/main.2435de62.js"
+    "static/css/main.2cd5a703.css",
+    "static/js/main.7f9c94f2.js"
   ]
 }
