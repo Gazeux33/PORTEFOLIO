@@ -1,0 +1,37 @@
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-div {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon img {
+    background-color: var(--purple);
+    width: 50px;
+    padding: 5px;
+    border-radius: 30%;
+}
+
+@media (max-width: 490px) {
+    .icon {
+        margin-right: 15px;
+    }
+}
