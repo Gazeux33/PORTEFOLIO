@@ -7,7 +7,7 @@ import linkedin from "../../assets/icons/linkedin.svg"
 
 function Footer() {
     return (
-        <footer>
+        <footer id="footer">
 
             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                 <div className="icon" style={{cursor: 'pointer'}}>

@@ -21,7 +21,7 @@ function NavBar() {
                     <a href="#home-container" className="nav-item hover" onClick={() => scrollToSection('home-container')}>Home</a>
                     <a href="#about-me-container" className="nav-item hover" onClick={() => scrollToSection('about-me-container')}>About Me</a>
                     <a href="#projects-global-container" className="nav-item hover" onClick={() => scrollToSection('projects-global-container')}>My Projects</a>
-                    <a href="#contact-me-container" className="nav-item hover" onClick={() => scrollToSection('contact-me-container')}>Contact Me</a>
+                    <a href="#footer" className="nav-item hover" onClick={() => scrollToSection('footer')}>Contact Me</a>
                 </div>
                 <label className="ui-switch">
                     <input

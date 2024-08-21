@@ -39,11 +39,11 @@ function Presentation() {
                         made it my career. Today I'm particularly interested in artificial
                         intelligence in the global sense.
                     </p>
-                    <div className="home-button" onClick={() => scrollToSection('contact-me-container')}>
+                    <div className="home-button" onClick={() => scrollToSection('footer')}>
                         <button className="link-button">Contact Me</button>
                         <img src={sendMessage} alt="" onClick={(e) => {
                             e.stopPropagation();
-                            scrollToSection('contact-me-container');
+                            scrollToSection('footer');
                         }}/>
                     </div>
                 </div>
