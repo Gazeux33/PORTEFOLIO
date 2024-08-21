@@ -1,7 +1,7 @@
 [
 
   {
-    "title": "Neural Networks from Scratch",
+    "title": "Neural Networks Library from Scratch",
     "image": "nn.png",
     "description": "A Modular Neural Network library only with Numpy in python",
     "skills": [],
