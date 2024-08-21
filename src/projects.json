@@ -1,4 +1,13 @@
 [
+
+  {
+    "title": "Neural Networks from Scratch",
+    "image": "nn.png",
+    "description": "A Modular Neural Network library only with Numpy in python",
+    "skills": [],
+    "link": "https://github.com/Gazeux33/NeuralNetwork",
+    "date": "02/05/24"
+  },
   {
     "title": "Neural Style Transfer",
     "image": "nst.png",

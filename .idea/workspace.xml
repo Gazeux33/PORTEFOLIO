@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3462dd5f-9197-4174-b87d-d477b2890fca" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/src/assets/pictures/projects/nn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composants/ContactMe/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/ContactMe/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composants/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composants/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composants/Carte/Carte.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/Carte/Carte.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
       </set>
     </attachedChunks>
   </component>
@@ -135,7 +135,10 @@
       <workItem from="1717279308442" duration="5421000" />
       <workItem from="1717345804920" duration="2619000" />
       <workItem from="1717791940921" duration="237000" />
-      <workItem from="1717952298837" duration="1807000" />
+      <workItem from="1717952298837" duration="2826000" />
+      <workItem from="1717964107419" duration="1764000" />
+      <workItem from="1724016275586" duration="83000" />
+      <workItem from="1724281521445" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -369,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717792157608</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="up">
+      <option name="closed" value="true" />
+      <created>1717954286867</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1717954286867</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
