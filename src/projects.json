@@ -1,5 +1,12 @@
 [
-
+  {
+    "title": "Build a French Large Language Model",
+    "image": "llm.png",
+    "description": "In this project, I built a French Large Language Model only with pytorch ",
+    "skills": [],
+    "link": "https://github.com/Gazeux33/Build-a-LLM",
+    "date": "02/05/24"
+  },
   {
     "title": "Neural Networks Library from Scratch",
     "image": "nn.png",
@@ -8,6 +15,7 @@
     "link": "https://github.com/Gazeux33/NeuralNetwork",
     "date": "02/05/24"
   },
+
   {
     "title": "Neural Style Transfer",
     "image": "nst.png",
