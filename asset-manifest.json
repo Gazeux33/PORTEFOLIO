@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a248c8d7.css",
-    "main.js": "/static/js/main.56a44a86.js",
+    "main.js": "/static/js/main.31b38752.js",
     "static/js/453.fc2b1924.chunk.js": "/static/js/453.fc2b1924.chunk.js",
     "static/media/theo.jpeg": "/static/media/theo.6cb576347e3c971cdb82.jpeg",
     "static/media/gan.png": "/static/media/gan.d2eefd5ba91625c22770.png",
@@ -16,6 +16,7 @@
     "static/media/mathplt.png": "/static/media/mathplt.b8662f44c01e526cb996.png",
     "static/media/VAE.png": "/static/media/VAE.73a913b94b6bf3e63b43.png",
     "static/media/snake.png": "/static/media/snake.f9cc3ce4923c12818df7.png",
+    "static/media/llm.png": "/static/media/llm.4a2ad9fb3d0d0363a875.png",
     "static/media/react.png": "/static/media/react.facbc64825afe8c6a871.png",
     "static/media/python.png": "/static/media/python.b1404ce3b612442eed35.png",
     "static/media/ubuntu.png": "/static/media/ubuntu.90f8b1b63164f687ee7b.png",
@@ -36,11 +37,11 @@
     "static/media/mail.svg": "/static/media/mail.3add4a10ff8544f7dae2f789c98754bb.svg",
     "static/media/send-message.svg": "/static/media/send-message.18fa1c5be1d9b867c6b85ee3f0ae1f35.svg",
     "main.a248c8d7.css.map": "/static/css/main.a248c8d7.css.map",
-    "main.56a44a86.js.map": "/static/js/main.56a44a86.js.map",
+    "main.31b38752.js.map": "/static/js/main.31b38752.js.map",
     "453.fc2b1924.chunk.js.map": "/static/js/453.fc2b1924.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a248c8d7.css",
-    "static/js/main.56a44a86.js"
+    "static/js/main.31b38752.js"
   ]
 }
