@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3462dd5f-9197-4174-b87d-d477b2890fca" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/src/Composants/Hobbies/Hobbies.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composants/Hobbies/Hobbies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/pictures/hobbies/chess.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/pictures/hobbies/formule1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/pictures/skills/haskell.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composants/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composants/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/Skills/Skills.js" afterDir="false" />
-    </list>
+    <list default="true" id="3462dd5f-9197-4174-b87d-d477b2890fca" name="Changes" comment="up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +101,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
       </set>
     </attachedChunks>
   </component>
@@ -146,6 +136,7 @@
       <workItem from="1717964107419" duration="1764000" />
       <workItem from="1724016275586" duration="83000" />
       <workItem from="1724281521445" duration="2450000" />
+      <workItem from="1726067064946" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -411,7 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724283811997</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="up">
+      <option name="closed" value="true" />
+      <created>1726067088357</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726067088357</updated>
+    </task>
+    <task id="LOCAL-00035" summary="up">
+      <option name="closed" value="true" />
+      <created>1726067814445</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726067814445</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -12,7 +12,7 @@ function Hobbies() {
             <div id="hobbies-cartes-container">
                 <div className="carte-hobbies">
                     <img src={formula1} alt=""/>
-                    <h2>Formule 1</h2>
+                    <h2>Formula 1</h2>
                 </div>
                 <div className="carte-hobbies">
                     <img src={chess} alt=""/>
