@@ -5,6 +5,7 @@ import Presentation from "./Composants/Presentation/Presentation";
 import Skills from "./Composants/Skills/Skills";
 import Projects from "./Composants/Projects/Projects";
 import LiteFooter from "./Composants/LiteFooter/Footer";
+import Hobbies from "./Composants/Hobbies/Hobbies";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <main>
                 <Home/>
                 <Presentation/>
+                <Hobbies/>
                 <Skills/>
                 <Projects/>
                 <LiteFooter/>

@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3462dd5f-9197-4174-b87d-d477b2890fca" name="Changes" comment="up" />
+    <list default="true" id="3462dd5f-9197-4174-b87d-d477b2890fca" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/src/Composants/Hobbies/Hobbies.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composants/Hobbies/Hobbies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pictures/hobbies/chess.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pictures/hobbies/formule1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pictures/skills/haskell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composants/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/NavBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composants/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composants/Skills/Skills.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +31,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -31,8 +40,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Gazeux33/PORTEFOLIO.git&quot;,
-    &quot;accountId&quot;: &quot;ec1ce977-9044-44b0-9647-97449e2b41d4&quot;
+    &quot;url&quot;: &quot;https://github.com/Gazeux33/PPP.git&quot;,
+    &quot;accountId&quot;: &quot;7cab328d-0778-4e95-875b-26d77f3b54e6&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -102,7 +111,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
       </set>
     </attachedChunks>
   </component>
@@ -137,7 +146,6 @@
       <workItem from="1717964107419" duration="1764000" />
       <workItem from="1724016275586" duration="83000" />
       <workItem from="1724281521445" duration="2450000" />
-      <workItem from="1725394266800" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

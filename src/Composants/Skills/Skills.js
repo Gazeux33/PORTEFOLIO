@@ -21,6 +21,7 @@ import ubuntu from "../../assets/pictures/skills/ubuntu.png"
 import vs from "../../assets/pictures/skills/vs.png"
 import numpy from "../../assets/pictures/skills/numpy.png"
 import sql from "../../assets/pictures/skills/sql.png"
+import haskell from "../../assets/pictures/skills/haskell.png"
 
 
 
@@ -51,6 +52,10 @@ const Skills = () => {
                         <div className="skill-icon">
                             <img src={js} className="icon" alt="js"/>
                             Javascript
+                        </div>
+                        <div className="skill-icon">
+                            <img src={haskell} className="icon" alt="js"/>
+                            Haskell
                         </div>
                         <div className="skill-icon">
                             <img src={cpp} className="icon" alt="c++"/>
