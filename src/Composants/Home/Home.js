@@ -27,7 +27,7 @@ const Home = () => {
                         <img  className="hover-bg" src={github} alt="GitHub"/>
                     </div>
                 </a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" >
+                <a href="www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer" >
                     <div className="icon" style={{cursor: 'pointer'}}>
                         <img  className="hover-bg" src={linkedin} alt="GitHub"/>
                     </div>
