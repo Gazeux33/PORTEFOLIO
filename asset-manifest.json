@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56bf82f2.css",
-    "main.js": "/static/js/main.1a7a537a.js",
+    "main.js": "/static/js/main.7af5660d.js",
     "static/js/453.fc2b1924.chunk.js": "/static/js/453.fc2b1924.chunk.js",
     "static/media/theo.jpeg": "/static/media/theo.6cb576347e3c971cdb82.jpeg",
     "static/media/gan.png": "/static/media/gan.d2eefd5ba91625c22770.png",
@@ -11,6 +11,7 @@
     "static/media/pg.png": "/static/media/pg.8cba7e1ffd0df1d9cb24.png",
     "static/media/chess.jpg": "/static/media/chess.efbf6936270946711149.jpg",
     "static/media/TOWA.png": "/static/media/TOWA.b770d19fbf21483264b2.png",
+    "static/media/graph.png": "/static/media/graph.93046be41344aeaf2dbc.png",
     "static/media/connect4.png": "/static/media/connect4.b96d956347634db39b24.png",
     "static/media/nn.png": "/static/media/nn.b04ad121f90fa21935b3.png",
     "static/media/formule1.jpg": "/static/media/formule1.73c1efb896f7bc597ac8.jpg",
@@ -39,11 +40,11 @@
     "static/media/mail.svg": "/static/media/mail.3add4a10ff8544f7dae2f789c98754bb.svg",
     "static/media/send-message.svg": "/static/media/send-message.18fa1c5be1d9b867c6b85ee3f0ae1f35.svg",
     "main.56bf82f2.css.map": "/static/css/main.56bf82f2.css.map",
-    "main.1a7a537a.js.map": "/static/js/main.1a7a537a.js.map",
+    "main.7af5660d.js.map": "/static/js/main.7af5660d.js.map",
     "453.fc2b1924.chunk.js.map": "/static/js/453.fc2b1924.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56bf82f2.css",
-    "static/js/main.1a7a537a.js"
+    "static/js/main.7af5660d.js"
   ]
 }
