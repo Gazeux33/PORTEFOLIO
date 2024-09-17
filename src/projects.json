@@ -48,6 +48,13 @@
     "date": "02/05/24"
   },
   {
+    "title": "graph visualizer",
+    "image": "graph.png",
+    "description": "A graph viewer in Javafx with full search algorithms ",
+    "link": "#",
+    "date": "02/05/24"
+  },
+  {
     "title": "Snake AI",
     "image": "snake.png",
     "description": "Snake AI using Neural Network in PyTorch",

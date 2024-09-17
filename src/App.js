@@ -17,9 +17,9 @@ function App() {
             <main>
                 <Home/>
                 <Presentation/>
-                <Hobbies/>
                 <Skills/>
                 <Projects/>
+                <Hobbies/>
                 <LiteFooter/>
 
 
