@@ -8,7 +8,7 @@ import chess from "../../assets/pictures/hobbies/chess.jpg"
 function Hobbies() {
     return (
         <div id="hobbies-container">
-            <h1> My Hobbies</h1>
+            <h1>Hobbies</h1>
             <div id="hobbies-cartes-container">
                 <div className="carte-hobbies">
                     <img src={formula1} alt=""/>

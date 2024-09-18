@@ -7,7 +7,7 @@ import projects from "../../projects.json"
 const Projects = () => {
     return (
         <div id="projects-global-container">
-            <h1>My Projects</h1>
+            <h1>Projects</h1>
             <div id="projects-container">
                 {projects.map((project, index) => (
                     <Carte key={index} project={project} />

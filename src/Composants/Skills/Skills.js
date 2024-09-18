@@ -28,7 +28,7 @@ import haskell from "../../assets/pictures/skills/haskell.png"
 const Skills = () => {
     return (
         <div id="skills-global-container">
-            <h1>My Skills</h1>
+            <h1>Skills</h1>
             <div id="skills-container">
                 <div className="skills-section">
                     <h2>Languages</h2>
