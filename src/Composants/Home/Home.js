@@ -14,7 +14,7 @@ const Home = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'chien.pdf';
+        link.href = 'CV-CASTILLO-FR.pdf';
         link.download = 'theocastillo.pdf';
         link.click();
     };
@@ -27,7 +27,7 @@ const Home = () => {
                         <img  className="hover-bg" src={github} alt="GitHub"/>
                     </div>
                 </a>
-                <a href="www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer" >
                     <div className="icon" style={{cursor: 'pointer'}}>
                         <img  className="hover-bg" src={linkedin} alt="GitHub"/>
                     </div>
