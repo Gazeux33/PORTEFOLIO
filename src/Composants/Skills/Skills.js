@@ -22,6 +22,7 @@ import vs from "../../assets/pictures/skills/vs.png"
 import numpy from "../../assets/pictures/skills/numpy.png"
 import sql from "../../assets/pictures/skills/sql.png"
 import haskell from "../../assets/pictures/skills/haskell.png"
+import php from "../../assets/pictures/skills/php.png"
 
 
 
@@ -54,7 +55,11 @@ const Skills = () => {
                             Javascript
                         </div>
                         <div className="skill-icon">
-                            <img src={haskell} className="icon" alt="js"/>
+                            <img src={php} className="icon" alt="php"/>
+                            PHP
+                        </div>
+                        <div className="skill-icon">
+                            <img src={haskell} className="icon" alt="haskell"/>
                             Haskell
                         </div>
                         <div className="skill-icon">
