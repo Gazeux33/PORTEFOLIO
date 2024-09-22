@@ -9,16 +9,14 @@ import phone from "../../assets/icons/phone.svg"
 function Footer() {
     return (
         <footer id="footer">
-            <h1>Contact Me</h1>
+            <h1 id="contact_title">Contact Me</h1>
             <div id="contact">
                 <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info" >
                         <div >
-                            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
-                                <div className="icon " style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg item-logo" src={mail} alt="GitHub"/>
-                                </div>
-                            </a>
+                            <div className="icon " style={{cursor: 'pointer'}}>
+                                <img className="hover-bg item-logo" src={mail} alt="mail"/>
+                            </div>
                         </div>
                         <div>
                             <h3 className="contact_title">Email</h3>
@@ -28,14 +26,13 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com">
+                <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                     <div className="contact_info">
                         <div>
-                            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
-                                <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg item-logo" src={github} alt="GitHub"/>
-                                </div>
-                            </a>
+                            <div className="icon" style={{cursor: 'pointer'}}>
+                                <img className="hover-bg item-logo" src={github} alt="GitHub"/>
+                            </div>
+
                         </div>
                         <div>
                             <h3 className="contact_title">GitHub</h3>
@@ -45,14 +42,12 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com">
+                <a href="https://www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer">
                     <div className="contact_info">
                         <div>
-                            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
-                                <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg item-logo" src={linkedin} alt="GitHub"/>
-                                </div>
-                            </a>
+                            <div className="icon" style={{cursor: 'pointer'}}>
+                                <img className="hover-bg item-logo" src={linkedin} alt="GitHub"/>
+                            </div>
                         </div>
                         <div>
                             <h3 className="contact_title">Linkedin</h3>
@@ -62,21 +57,17 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info">
                         <div>
-                            <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
-                                <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg item-logo" src={phone} alt="GitHub"/>
+                                <div className="icon">
+                                    <img className="hover-bg item-logo" src={phone} alt="Phone"/>
                                 </div>
-                            </a>
                         </div>
                         <div>
                             <h3 className="contact_title">Phone</h3>
                             <span className="contact_subtitle">(+33) 616183892</span>
                         </div>
                     </div>
-                </a>
 
 
             </div>
