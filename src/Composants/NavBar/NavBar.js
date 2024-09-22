@@ -22,10 +22,11 @@ function NavBar() {
                        onClick={() => scrollToSection('home-container')}>Home</a>
                     <a href="#about-me-container" className="nav-item hover"
                        onClick={() => scrollToSection('about-me-container')}>About Me</a>
-                    <a href="#hobbies-container" className="nav-item hover"
-                       onClick={() => scrollToSection('hobbies-container')}>Hobbies</a>
+
                     <a href="#projects-global-container" className="nav-item hover"
                        onClick={() => scrollToSection('projects-global-container')}>Projects</a>
+                    <a href="#hobbies-container" className="nav-item hover"
+                       onClick={() => scrollToSection('hobbies-container')}>Hobbies</a>
                     <a href="#footer" className="nav-item hover" onClick={() => scrollToSection('footer')}>Contact
                         Me</a>
                 </div>

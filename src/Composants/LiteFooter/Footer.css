@@ -2,37 +2,50 @@
 footer {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.left-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact-div {
-    display: flex;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
 }
 
-.icon {
+h1 {
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.contact_info {
     display: flex;
-
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+    margin: 30px;
 }
 
-.icon img {
-    background-color: var(--purple);
-    width: 50px;
-    padding: 5px;
-    border-radius: 30%;
+#contact {
+    background: linear-gradient(var(--background),var(--background)) padding-box,
+    linear-gradient(145deg, transparent 35%,var(--purple),var(--purple-hover)) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
 }
 
-@media (max-width: 490px) {
-    .icon {
-        margin-right: 15px;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }
+
