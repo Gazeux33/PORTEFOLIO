@@ -25,8 +25,8 @@ function NavBar() {
 
                     <a href="#projects-global-container" className="nav-item hover"
                        onClick={() => scrollToSection('projects-global-container')}>Projects</a>
-                    <a href="#hobbies-container" className="nav-item hover"
-                       onClick={() => scrollToSection('hobbies-container')}>Hobbies</a>
+                    {/*<a href="#hobbies-container" className="nav-item hover"
+                       onClick={() => scrollToSection('hobbies-container')}>Hobbies</a>*/}
                     <a href="#footer" className="nav-item hover" onClick={() => scrollToSection('footer')}>Contact
                         Me</a>
                 </div>
