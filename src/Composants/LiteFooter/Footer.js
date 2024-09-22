@@ -11,7 +11,7 @@ function Footer() {
         <footer id="footer">
             <h1>Contact Me</h1>
             <div id="contact">
-                <a href="mailto:theocastillo@yahoo.com" target="_blank">
+                <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info" >
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
@@ -28,7 +28,7 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com" target="_blank">
+                <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info">
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
@@ -45,7 +45,7 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com" target="_blank">
+                <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info">
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ function Footer() {
                 </a>
 
 
-                <a href="mailto:theocastillo@yahoo.com" target="_blank">
+                <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info">
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
