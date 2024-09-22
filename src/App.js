@@ -19,7 +19,6 @@ function App() {
                 <Presentation/>
                 <Skills/>
                 <Projects/>
-                <Hobbies/>
                 <LiteFooter/>
 
 

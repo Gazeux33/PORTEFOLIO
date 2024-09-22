@@ -27,6 +27,13 @@ a {
     color: var(--font-color);
 }
 
+.item-logo {
+    background-color: var(--purple);
+    padding: 5px;
+    border-radius: 10px;
+    width: 40px;
+}
+
 /*****************
 REUSABLE CLASS
 *****************/

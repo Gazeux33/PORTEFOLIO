@@ -13,10 +13,10 @@ function Footer() {
             <div id="contact">
                 <a href="mailto:theocastillo@yahoo.com">
                     <div className="contact_info" >
-                        <div>
+                        <div >
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
-                                <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg" src={mail} alt="GitHub"/>
+                                <div className="icon " style={{cursor: 'pointer'}}>
+                                    <img className="hover-bg item-logo" src={mail} alt="GitHub"/>
                                 </div>
                             </a>
                         </div>
@@ -33,7 +33,7 @@ function Footer() {
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                                 <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg" src={github} alt="GitHub"/>
+                                    <img className="hover-bg item-logo" src={github} alt="GitHub"/>
                                 </div>
                             </a>
                         </div>
@@ -50,7 +50,7 @@ function Footer() {
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                                 <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg" src={linkedin} alt="GitHub"/>
+                                    <img className="hover-bg item-logo" src={linkedin} alt="GitHub"/>
                                 </div>
                             </a>
                         </div>
@@ -67,7 +67,7 @@ function Footer() {
                         <div>
                             <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                                 <div className="icon" style={{cursor: 'pointer'}}>
-                                    <img className="hover-bg" src={phone} alt="GitHub"/>
+                                    <img className="hover-bg item-logo" src={phone} alt="GitHub"/>
                                 </div>
                             </a>
                         </div>

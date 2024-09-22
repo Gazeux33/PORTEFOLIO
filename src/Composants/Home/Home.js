@@ -24,12 +24,12 @@ const Home = () => {
             <div className="logo-container">
                 <a href="https://github.com/Gazeux33" target="_blank" rel="noopener noreferrer">
                     <div className="icon" style={{cursor: 'pointer'}}>
-                        <img  className="hover-bg" src={github} alt="GitHub"/>
+                        <img  className="hover-bg item-logo" src={github} alt="GitHub"/>
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/in/theo-castillo-760606315" target="_blank" rel="noopener noreferrer" >
                     <div className="icon" style={{cursor: 'pointer'}}>
-                        <img  className="hover-bg" src={linkedin} alt="GitHub"/>
+                        <img  className="hover-bg item-logo" src={linkedin} alt="GitHub"/>
                     </div>
                 </a>
             </div>

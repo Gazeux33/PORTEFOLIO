@@ -44,7 +44,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
+
+
 
 .home-button button{
     color: var(--static-font-color);
@@ -69,11 +72,13 @@ button {
     flex-direction: column;
     margin-top: 100px;
     margin-right: 10px;
+
 }
 
 @media (max-width: 950px) {
     #threeDModelContainer {
         display: none;
+        background-color: var(--purple-hover);
     }
 
     #home-presentation-container{
