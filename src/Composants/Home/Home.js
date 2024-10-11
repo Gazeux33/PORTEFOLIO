@@ -14,7 +14,7 @@ const Home = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'CV-CASTILLO-FR.pdf';
+        link.href = 'CV-TCASTILLO-FR.pdf';
         link.download = 'theocastillo.pdf';
         link.click();
     };
